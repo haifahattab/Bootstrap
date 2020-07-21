@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap 3 : placement</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+
+
+    </head>
+    <body>
+        <div class="container-fluid text-center p-5">
+            <h1>Décalage</h1>
+            <div class="row border border-info">
+                <div class="offset-lg-3 col-lg-3 bg-primary">je dois être à 3 colonne de la gauche et faire 3 colonnes</div>
+                <div class="offset-lg-4 col-lg-2 bg-primary">je dois être à 4 colonnes de la div précédente et faire 2 colonnes</div>
+            </div>
+            <div class="row border border-info mt-3">
+                <div class="offset-lg-1 col-lg-1 bg-primary">je dois être à 1 colonne de la gauche et faire 1 colonne</div>
+                <div class="offset-lg-3 col-lg-2 bg-primary">je dois être à 3 colonnes de la div précédente et faire 2 colonnes</div>
+                <div class="offset-lg-2 col-lg-1 bg-primary">je dois être à 2 colonne de la div précédente et faire 1 colonne</div>
+                <div class="offset-lg-1 col-lg-1 bg-primary">je dois être à 1 colonnes de la div précédente et faire 1 colonne</div>
+            </div>
+            <h1>Contenu</h1>
+            <div class="row">
+              <div class="container col-lg-4 bg-primary">
+                Conteneur 1 : dois faire 4 colonnes
+                <div class="row pb-3 pt-3 pl-1">
+                  <div class="col-lg-4 bg-secondary">
+                    Contenu 1 : dois faire 4 colonnes
+                  </div>
+                  <div class="col-lg-8 bg-warning">
+                    Contenu 2 :dois faire 8 colonnes
+                  </div>
+                </div>
+              </div>
+              <div class="container col-lg-8 bg-info">
+                Conteneur 2 : dois faire 8 colonnes
+                <div class="row pb-2 pt-3">
+                  <div class="offset-lg-1 col-lg-6 bg-secondary">
+                    Contenu 1 : dois faire 6 colonnes et être à 1 colonne de la gauche
+                  </div>
+                  <div class="col-lg-4 bg-warning">
+                    contenu 2 : dois faire 4 colonnes
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+
+
+    </body>
+</html>

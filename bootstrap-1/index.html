@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap 1</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+
+
+    </head>
+    <body>
+        <header class="container-fluid bg-primary text-center text-white">
+            <h1>Installation de bootstrap</h1>
+        </header>
+        <div class="container">
+            <nav>
+                <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="pills-CDN-tab" data-toggle="pill" href="#pills-CDN" role="tab" aria-controls="pills-CDN" aria-selected="true">Installation CDN</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-download-tab" data-toggle="pill" href="#pills-download" role="tab" aria-controls="pills-download" aria-selected="false">Installation téléchargement</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-tips-tab" data-toggle="pill" href="#pills-tips" role="tab" aria-controls="pills-tips" aria-selected="false">Astuce fainéants</a>
+                  </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-CDN" role="tabpanel" aria-labelledby="pills-CDN-tab">
+                      Rendez-vous sur la page de bootstrap (actuellement v4.3.1)  <a href="https://getbootstrap.com/docs/4.3/getting-started/download/" target="_blank">(Lien vers page de téléchargement)</a> et regardez la section BootstrapCDN.
+                      Il vous propose 2 balises à copier pour bootstrap (css et js) et 2 balises qui concernent jquery et popper.
+                      Copiez ces balises et inserez les dans le HEAD.
+                      <br>
+                      Cependant, pour utiliser proprement les fonctionnalités de bootstrap(de son JS surtout), vous devrez placer le script qui pointe vers bootstrap.min.js après les script de popper et jquery.
+                      <br>
+                      Vous devriez avoir dans l'ordre : le lien vers bootstrap.min.css puis le script de jquery puis le script popper puis bootstrap.min.js .
+                      Quand vous souhaiterez ajouter votre propre CSS ou JS, Vous les placerez sous ces balises.
+                  </div>
+                  <div class="tab-pane fade" id="pills-download" role="tabpanel" aria-labelledby="pills-download-tab">
+                      Rendez-vous sur la page de bootstrap (actuellement v4.3.1)  <a href="https://getbootstrap.com/docs/4.3/getting-started/download/" target="_blank">(Lien vers page de téléchargement)</a>
+                       et regardez la section Compiled CSS & JS.
+                      Il vous propose de télécharger un zip contenant les différents éléments.
+                      Ceux qui vous interessent ici sont : bootstrap.min.css et bootstrap.min.js .
+                      Extrayez ces 2 fichiers dans le dossier contanant votre projet et référencez les dans index.html comme d'habitude
+                      <br>
+                      ATTENTION : Certaines fonctionnalités de bootstrap nécessitent jquery et popper qui ne sont pas inclus dans le zip, vous devrez les télécharger à part et y faire référence dans index.html
+                      <br>
+                      Pour utiliser proprement les fonctionnalités de bootstrap(de son JS surtout), vous devrez placer le script qui pointe vers bootstrap.min.js après les script de popper et jquery.
+                      <br>
+                      Vous devriez avoir dans l'ordre : le lien vers bootstrap.min.css puis le script de jquery puis le script popper puis bootstrap.min.js .
+                      Quand vous souhaiterez ajouter votre propre CSS ou JS, Vous les placerez sous ces balises.
+
+                  </div>
+                  <div class="tab-pane fade" id="pills-tips" role="tabpanel" aria-labelledby="pills-tips-tab">
+                      Une astuce pour vous faciliter la vie avec votre IDE : Faites vous un snippet générique d'une page avec bootstrap.
+                      <br>Avec ATOM :
+                      <br>fichier puis snippets puis collez le code suivant et sauvegardez.Lorsque vous taperez boot suivi de tab dans un fichier html, ce code sera écrit.
+                      <xmp>
+                          '.source.html':
+                            'Bootstrap':
+                              'prefix': 'boot'
+                              'body': """
+                                  <!DOCTYPE html>
+                                  <html lang="fr">
+                                      <head>
+                                          <meta charset="utf-8">
+                                          <meta name="viewport" content="width=device-width, initial-scale=1">
+                                          <title>Mon titre</title>
+                                          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+                                          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+                                          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                                          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+
+                                          <link rel="stylesheet" type="text/css" href="style.css">
+                                          <script type="text/javascript" src="script.js"></script>
+                                      </head>
+                                      <body>
+                                      $1
+
+
+                                      </body>
+                                  </html>
+
+                              """
+                      </xmp>
+                      <br>Avec Sublime :
+                      <br>Tools puis Developper puis new snippet collez le code suivant et sauvegardez.Lorsque vous taperez boot suivi de tab dans un fichier html, ce code sera écrit.
+                      <xmp>
+                          <snippet>
+                        	<content><![CDATA[
+                        <!DOCTYPE html>
+                          <html lang="fr">
+                              <head>
+                                  <meta charset="utf-8">
+                                  <meta name="viewport" content="width=device-width, initial-scale=1">
+                                  <title>Mon titre</title>
+                                  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+                                  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+                                  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                                  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+
+                                  <link rel="stylesheet" type="text/css" href="style.css">
+                                  <script type="text/javascript" src="script.js"></script>
+                              </head>
+                              <body>
+                              $1
+
+
+                              </body>
+                          </html>
+                        ]]></content>
+                        	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+                        	<tabTrigger>boot</tabTrigger>
+                        	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+                        	<scope>text.html</scope>
+                        </snippet>
+                      </xmp>
+
+                  </div>
+                </div>
+            </nav>
+
+        </div>
+
+        </body>
+</html>

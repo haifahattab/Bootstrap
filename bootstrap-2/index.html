@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap 2 : déja vu?</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+        <style type="text/css">
+        </style>
+
+    </head>
+    <body>
+        <div class="container text-center">
+            <h1>La grille bootstrap et les couleurs</h1>
+        </div>
+        <!-- Mettez votre code ci dessous pour reproduire l'image bootstrap2.png -->
+        <div class="bg-danger text-center p-3 font-weight-bold">HEADER</div>
+
+        <div class="row text-center">
+            <div class="bg-warning col-lg-3 order-lg-1 col-12 p-2 order-2 p-lg-5">Aside1</div>
+            <div class="bg-primary col-lg-6 order-lg-2 p-5 col-12 order-1"><p>Lorsque vous utilisez Bootstrap, vous utilisez forcément le système de ligne (row) et de colonne (col). Chacune de ces solutions génèrent une marge interne automatiquement (padding). Dans les versions précédentes de Bootstrap et plus particulièrement dans la V3, je vous avais proposé une solution permettant de générer des colonnes sans padding. Cette solution aserait aujourd’hui facilement réglée avec les classes spacing et surtout sans toucher aux fichiers SCSS.</p></div>
+            <div class="bg-info col-lg-3 order-lg-3 order-3 p-lg-5 p-2 col-12">Aside2</div>
+        </div>
+        <footer class="bg-success text-center haut p-3 font-weight-bold">Footer</footer>
+    </body>
+</html>
