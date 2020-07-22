@@ -1,21 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bootstrap 4</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
 
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script type="text/javascript" src="script.js"></script>
-    </head>
-    <body>
-        <div class="container-fluid p-0">
-            <!-- Votre code ici -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 4</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <div class="jumbotron bg-jumb-main mb-0">
+            <header class="text-justify ml-5">
+                <h1 class="h1">JUMBOTRON</h1>
+                <p>Un sous titre juste là pour l'exemple</p>
+                <button class="bg-primary rounded border border-primary p-2 text-white">Aller là-bas</button>
+            </header>
+        </div>
+        <div class="container bg-light">
+            <div class="row text-center m-5">
+                <section class="col-4">
+                    <h1>titre1 </h1>
+                    <p>Comme la largeur est de 12 colonnes, tout ce qui nous intéresse est le centrage, que ces 2 classes possèdent en commun, sans influence du média utilisé. On peut donc utiliser indifféremment ces 2 classes dans notre cas.</p>
+                </section>
+                <section class="col-4">
+                    <h1>titre2 </h1>
+                    <p>Comme la largeur est de 12 colonnes, tout ce qui nous intéresse est le centrage, que ces 2 classes possèdent en commun, sans influence du média utilisé. On peut donc utiliser indifféremment ces 2 classes dans notre cas.</p>
+                </section>
+                <section class="col-4">
+                    <h1>titre3 </h1>
+                    <p>Comme la largeur est de 12 colonnes, tout ce qui nous intéresse est le centrage, que ces 2 classes possèdent en commun, sans influence du média utilisé. On peut donc utiliser indifféremment ces 2 classes dans notre cas.</p>
+                </section>
+            </div>
+            <div class="jumbotron bg-jumb-inter text-justify">
+                <div class="offset-lg-8 col4">
+                    <h1 class="mr-5">Mon titre</h1>
+                    <p>Un sous titre juste là pour l'exemple</p>
+                    <button class="bg-primary rounded border border-primary text-white p-2  mr-5">En fait, là bas c'est mieux</button>
+                </div>
+            </div>
         </div>
 
-    </body>
+    </div>
+
+</body>
+
 </html>
