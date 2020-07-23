@@ -1,19 +1,52 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>bootstrap 5</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
 
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script type="text/javascript" src="script.js"></script>
-    </head>
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap 5</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
 
-    </body>
+<body>
+    <div class="bg-dark">
+        <nav class="row nav p-2 offset-lg-5 col-4 text-primary">
+            <a href="#" class="nav-link">Accueil</a>
+            <a href="#" class="nav-link">A propos</a>
+            <a href="#" class="nav-link">Nous contacter</a>
+        </nav>
+    </div>
+    <div>
+        <h1>Nav Verticale à gauche</h1>
+        <nav class="col-2 bg-secondary nav flex-column p-3">
+            <a href="#" class="text-white nav-link">Accueil</a>
+            <a href="#" class="text-white nav-link">A propos</a>
+            <a href="#" class="text-white nav-link">Nous contacter</a>
+    </div>
+    <div>
+        <h1>Nav avec contenu</h1>
+        <div class="row">
+            <nav class="nav flex-column col-2 bg-secondary nav-pills p-3" role="tablist" aria-orientation="vertical">
+                <a class="nav-link text-white" id="accueil1" data-toggle="pill" href="#accueil" role="tab" aria-controls="acceuil" aria-selected="false">Accueil</a>
+                <a class="nav-link text-white" id="a-propos" data-toggle="pill" href="#propos" role="tab" aria-controls="propos" aria-selected="false">A propos</a>
+                <a class="nav-link text-white" id="nous-contacter" data-toggle="pill" href="#contact " role="tab " aria-controls="contact" aria-selected="false">Nous contactez</a>
+            </nav>
+            <div class="tab-content col-10">
+                <div class="tab-pane fade" id="accueil" role="tabpanel" aria-labelledby="accueil1">Cillum ad ut irure tempor velit nostrud occaecat ullamco aliqua anim Lorem sint. Veniam sint duis incididunt do esse magna mollit excepteur laborum qui. Id id reprehenderit sit est eu aliqua occaecat quis et velit excepteur laborum mollit
+                    dolore eiusmod. Ipsum dolor in occaecat commodo et voluptate minim reprehenderit mollit pariatur. Deserunt non laborum enim et cillum eu deserunt excepteur ea incididunt minim occaecat.</div>
+                <div class="tab-pane fade" id="propos" role="tabpanel" aria-labelledby="a-propos">Culpa dolor voluptate do laboris laboris irure reprehenderit id incididunt duis pariatur mollit aute magna pariatur consectetur. Eu veniam duis non ut dolor deserunt commodo et minim in quis laboris ipsum velit id veniam. Quis ut consectetur
+                    adipisicing officia excepteur non sit. Ut et elit aliquip labore Lorem enim eu. Ullamco mollit occaecat dolore ipsum id officia mollit qui esse anim eiusmod do sint minim consectetur qui.</div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="nous-contacter">Fugiat id quis dolor culpa eiusmod anim velit excepteur proident dolor aute qui magna. Ad proident laboris ullamco esse anim Lorem Lorem veniam quis Lorem irure occaecat velit nostrud magna nulla. Velit et et proident Lorem do ea tempor
+                    officia dolor. Reprehenderit Lorem aliquip labore est magna commodo est ea veniam consectetur.</div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
