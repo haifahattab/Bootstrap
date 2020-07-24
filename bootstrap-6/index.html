@@ -1,47 +1,106 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>bootstrap 6</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
 
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script type="text/javascript" src="script.js"></script>
-    </head>
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap 6</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
 
-        <div class="container-fluid ">
-            <div class="row justify-content-center">
-                <h1>3 Cards de 3 colonnes chacunes et espacées</h1>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid ">
+        <div class="row justify-content-center">
+            <h1>3 Cards de 3 colonnes chacunes et espacées</h1>
+        </div>
+        <div class="row m-5">
+            <div class="col-lg-3">
+                <img src="images/card1.jpg" alt="card1">
+                <h2>Titre card 1</h2>
+                <p>Courte description du contenu de la card</p>
+                <button class="btn btn-primary">Voyager ici</button>
             </div>
-            <!-- Code de la premiere partie -->
-
-
-
-
-
-            <div class="row justify-content-center">
-                    <h3>2 cards de 6 colonnes chacunes sans espaces entre</h3>
+            <div class="col-lg-3 offset-1">
+                <img src="images/card1.jpg" alt="card1">
+                <h2>Titre card 1</h2>
+                <p>Courte description du contenu de la card</p>
+                <button class="btn btn-primary">Voyager ici</button>
             </div>
-            <div class="row justify-content-center">
-                    <h4>l'image fait 4 colonnes et le corps(texte, boutons, etc) de la card, 8 colonnes</h4>
+            <div class="col-lg-3 offset-lg-1">
+                <img src="images/card1.jpg" alt="card1">
+                <h2>Titre card 1</h2>
+                <p>Courte description du contenu de la card</p>
+                <button class="btn btn-primary">Voyager ici</button>
             </div>
-            <!-- Code de la deuxieme partie -->
+        </div>
 
+    </div>
 
-
-            <div class="row justify-content-center">
-                <h3>Card columns</h3>
+    <div class="row justify-content-center">
+        <h3>2 cards de 6 colonnes chacunes sans espaces entre</h3>
+    </div>
+    <div class="row justify-content-center">
+        <h4>l'image fait 4 colonnes et le corps(texte, boutons, etc) de la card, 8 colonnes</h4>
+    </div>
+    <div class="row m-5 p-2">
+        <div class="col-6 p-0">
+            <div class="row">
+                <img src="images/card3.jpg" alt="card3" class="col-4 pr-0">
+                <div class="col-8  border">
+                    <h2>Titre card 3</h2>
+                    <p>Courte description du contenue de la card</p>
+                    <h6 class="font-weight-light">Petite sous titre</h6>
+                </div>
             </div>
-            <!-- Code de la troixieme partie -->
+        </div>
+        <div class="col-6 p-0">
+            <div class="row">
+                <img src="images/card3.jpg" alt="card3" class="col-4 pr-0">
+                <div class="col-8 border">
+                    <h2>Titre card 3</h2>
+                    <p>Courte description du contenue de la card</p>
+                    <h class="font-weight-light">Petite sous titre</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
-
-
+    <div class="row justify-content-center">
+        <h3>Card columns</h3>
+    </div>
+    <!-- Code de la troixieme partie -->
+    <div class="row m-5">
+        <div class="col-3">
+            <img src="images/card1.jpg" class="pb-2">
+            <img src="images/card3.jpg">
+        </div>
+        <div class="col-3">
+            <img src="images/card2.jpg" class="pb-3">
+            <img src="images/card4.jpg" class="pb-2">
+            <img src="images/card1.jpg">
 
         </div>
-    </body>
+        <div class="col-3">
+            <img src="images/card2.jpg" class="pb-4">
+            <img src="images/card5.jpg" class="pb-2">
+            <img src="images/card1.jpg">
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+
+
+    </div>
+</body>
+
 </html>
