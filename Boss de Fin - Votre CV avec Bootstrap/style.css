@@ -3,9 +3,19 @@ li {
 }
 
 a {
-    color: white;
+    color: #f69d3c;
+
 }
 
+a:hover {
+    color: white;
+
+    text-decoration-line: none;
+}
+.icone-menu{
+    height: 50px;
+    width: 50px;
+}
 .contenu {
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     padding: 10%;
@@ -176,11 +186,6 @@ section>div>div>h2 {
     background-clip: text;
     background-clip: text;
     color: transparent;
-}
-
-a:hover {
-    color: #f69d3c;
-    text-decoration-line: none;
 }
 
 .btn {
