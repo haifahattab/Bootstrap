@@ -1,0 +1,15 @@
+L'entraineur du RC Grasse est un ami d'enfance (oui oui, on allait au collège ensemble ^^). Il avait pour habitude de toujours présenter sa stratégie d'équipe à l'ancienne - sur un tableau blanc, en plaçant chaque joueur titulaire sur le terrain et en expliquant comment il voulait voir circuler la balle.
+
+Cependant, les années passent et même si la méthode a porté ses fruits (le RC Grasse est en National 2), le club souhaite désormais moderniser ses méthodes. Forcément, avec le lancement de votre promo Dev Web sur le territoire, tout le monde s'est dit que vous alliez probablement pouvoir donner un coup de main à l'équipe fanion, et développer la solution miracle pour le club !
+
+Votre mission si vous l'acceptez est de vous inspirer de la maquette fournie par le club (fichier resultat.png) en créant un terrain de football en CSS sur lequel vous placerez les 11 joueurs, en n'utilisant que les éléments fournis (image de fond du terrain et maillots des joueurs à récupérer).
+Vous pourrez choisir le maillot que vous souhaitez utiliser pour vos joueurs sur ce site : https://icon-icons.com/fr/icone/football-maillot-T-shirt/113021
+
+Le projet doit être 100% responsive, full screen (pas de scroll possible). Terrain horizontal pour un affichage landscape, et vertical lorsque l'affichage est en portrait.
+
+En bonus, vous pourrez apporter les amélioration suivantes :
+- Prévoir plusieurs stratégies possibles déjà pré-enregistrées (4-2-3-1, 4-4-2, 4-3-3, 3-5-2, ...)
+- Rajouter un ballon sur le terrain (vous trouverez une image qui va bien) 
+- Coder des transitions sur le ballon pour simuler une passe depuis le joueur qui a le ballon vers le joueur sur lequel l'utilisateur vient de cliquer
+- Soyez imaginatif ! Grâce à vous le RCG montera peut-être dans la division supérieure dès la saison prochaine !
+​

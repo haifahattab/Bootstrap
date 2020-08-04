@@ -1,0 +1,8 @@
+Une association de jeux vidéo rétro met en place son nouveau site web. Les idées fusent dans tous les sens, certaines excellentes, d'autres beaucoup plus discutables ^^ L'une d'entre elles a fait l'unanimité ! Sur le site il y aura des sections réservées à chaque console rétro. Pour donner vie à ces sous-univers, l'association veut proposer des manettes qui serviront de navigation ! L'idée est révolutionnaire, tout le monde est déjà sur le pont. Pour réaliser un POC (Proof of Concept), l'infographiste a déjà préparé la maquette d'une manette NES. Il a commencé à l'intégrer en produisant juste le HTML (qui de plus est d'une qualité contestable), ses connaissances s'arrêtant là. 
+
+Votre mission si vous l'acceptez sera de coder cette manette intégralement en HTML/CSS afin qu'on puisse, plus tard, la rendre totalement interactive. La pression est sur vos épaules, tout le Conseil d'Administration de l'asso est dans l'attente de vos prouesses !
+
+A partir d'un fichier HTML donné, vous devrez essayer de nemodifier que le CSS afin d'arriver au rendu le plus proche possible d'une manette de NES (voir resultat-NES.jpg). Il ne faut donc pas modifier, ajouter ou supprimer de balises HTML (sauf si vrai blocage). Uniquement le CSS donc.
+
+Bonus :
+- Vous pourrez aller plus loin en essayant de comprendre comment faire interagir les boutons de votre manette avec un contenu que vous ajouterez pour l'exemple. Vous êtez libre !

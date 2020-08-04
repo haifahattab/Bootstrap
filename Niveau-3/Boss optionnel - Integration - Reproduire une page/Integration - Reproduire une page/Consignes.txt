@@ -1,0 +1,26 @@
+A partir de la maquette fournie au format PNG (maquette.png), vous devez réaliser la page web correspondante en HTML et CSS (pas de Javascript).
+
+Vous respecterez entre autres (mais de manière non exhaustive) :
+
+la typographie (les polices utilisées sont Georgia et "Encore Sans" que vous pouvez remplacer par "Segoe UI")
+les images
+la position des blocs
+le contenu
+La structure HTML du code n'est pas imposée et chacun est libre de définir la sienne.
+
+Vous ne devez pas retoucher les images fournies (utilisez uniquement les styles).
+
+Le site ne doit pas être responsive. Vous pouvez utiliser Bootstrap (mais vous n'êtes pas obligés).
+Vous êtes libre de réorganiser le contenu en fonction de la résolution, les maquettes ne sont pas fournies.
+
+Vous devez organiser et prioriser votre développement en fonction des parties qui vous paraissent les plus accessibles. 
+
+Ce projet est à réaliser seul.
+
+Points à respecter :
+
+le résultat doit être le plus proche possible de la maquette (mais pas au pixel près) ;
+le code HTML doit structurer le contenu ;
+le code CSS doit réaliser la mise en forme ;
+Utilisation des classes et des ids ;
+Utilisation de git.
